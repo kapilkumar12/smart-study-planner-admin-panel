@@ -8,7 +8,7 @@ import SubjectPerformanceChart from "./components/SubjectPerformanceChart";
 import WeakSubjectsTable from "./components/WeakSubjectsTable";
 import SubjectProgressTable from "./components/SubjectProgressTable";
 
-export default function SubjectAnalyticsPage() {
+export default function page() {
 
   const [subjects, setSubjects] =
     useState([]);

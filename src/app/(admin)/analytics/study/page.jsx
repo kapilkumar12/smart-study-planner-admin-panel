@@ -8,7 +8,7 @@ import CompletionChart from "./components/CompletionChart";
 import ProductivityChart from "./components/ProductivityChart";
 import PendingTasksCard from "./components/PendingTasksCard";
 
-export default function StudyAnalyticsPage() {
+export default function page() {
 
   const [completionData, setCompletionData] =
     useState(null);

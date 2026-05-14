@@ -6,7 +6,7 @@ import axiosInstance from "@/lib/axiosInstance";
 import { useState } from "react";
 import Link from "next/link";
 
-export default function RegisterPage() {
+export default function page() {
     const [serverError, setServerError] = useState("");
 
     const handleSubmit = async (values: any, { setSubmitting }: any) => {

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axiosInstance from "@/lib/axiosInstance";
 import { Flame, Trophy, Medal } from "lucide-react";
 
-export default function StreakLeaderboardPage() {
+export default function page() {
   const [loading, setLoading] = useState(true);
   const [leaderboard, setLeaderboard] = useState([]);
 

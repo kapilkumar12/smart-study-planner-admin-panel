@@ -40,7 +40,7 @@ type DashboardData = {
   }[];
 };
 
-export default function DashboardPage() {
+export default function page() {
   const [data, setData] =
     useState<DashboardData | null>(null);
 

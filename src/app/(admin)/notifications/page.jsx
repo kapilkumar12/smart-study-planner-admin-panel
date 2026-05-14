@@ -20,7 +20,7 @@ import {
   Circle,
 } from "lucide-react";
 
-const Page = () => {
+const page = () => {
 
   const [notifications, setNotifications] =
     useState([]);

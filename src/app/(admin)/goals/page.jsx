@@ -19,7 +19,7 @@ import {
   CalendarDays,
 } from "lucide-react";
 
-const Page = () => {
+const page = () => {
 
   const [goals, setGoals] =
     useState([]);

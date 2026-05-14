@@ -6,15 +6,21 @@ import axiosInstance from "@/lib/axiosInstance";
 import { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 
-export default function VerifyOTPPage() {
+export default function page() {
     const [timer, setTimer] = useState(30);
     const [serverError, setServerError] = useState("");
     const [resendLoading, setResendLoading] = useState(false);
 
+    const [email, setEmail] = useState("");
+
     const params = useSearchParams();
-    const email = params.get("email");
 
     const router = useRouter();
+
+    useEffect(() => {
+        const e = params.get("email");
+        if (e) setEmail(e);
+    }, [params]);
 
     // ⏳ Timer countdown
     useEffect(() => {

@@ -19,7 +19,7 @@ import {
   Target,
 } from "lucide-react";
 
-const Page = () => {
+const page = () => {
 
   const [plans, setPlans] =
     useState([]);

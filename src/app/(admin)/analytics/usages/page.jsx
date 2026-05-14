@@ -14,7 +14,7 @@ import DailyUsageChart from "./components/DailyUsageChart";
 
 import UsageLogsTable from "./components/UsageLogsTable";
 
-export default function UsageAnalyticsPage() {
+export default function page() {
 
   const [usages, setUsages] =
     useState([]);

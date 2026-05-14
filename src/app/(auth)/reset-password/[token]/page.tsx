@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import axiosInstance from "@/lib/axiosInstance";
 
-export default function ResetPasswordPage() {
+export default function page() {
 
   const params = useParams();
   const router = useRouter();

@@ -7,7 +7,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-export default function LoginPage() {
+export default function page() {
   const [serverError, setServerError] = useState("");
   const router = useRouter();
 

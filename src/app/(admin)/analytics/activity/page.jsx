@@ -12,7 +12,7 @@ import CompletionTrendChart from "./components/CompletionTrendChart";
 
 import RecentActivityTable from "./components/RecentActivityTable";
 
-export default function ActivityAnalyticsPage() {
+export default function page() {
 
   const [activityData, setActivityData] =
     useState([]);

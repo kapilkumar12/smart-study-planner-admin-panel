@@ -7,7 +7,7 @@ import ActiveUsersCard from "./components/ActiveUsersCard";
 import TopUsersTable from "./components/TopUsersTable";
 import UserGrowthChart from "./components/UserGrowthChart";
 
-export default function UsersAnalyticsPage() {
+export default function page() {
 
   const [topUsers, setTopUsers] = useState([]);
   const [growthData, setGrowthData] = useState([]);

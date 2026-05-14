@@ -3,7 +3,7 @@
 import { useState } from "react";
 import axiosInstance from "@/lib/axiosInstance";
 
-export default function ForgotPasswordPage() {
+export default function page() {
 
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");

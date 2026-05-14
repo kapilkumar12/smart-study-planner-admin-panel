@@ -12,7 +12,7 @@ import UserGrowthChart from "./users/components/UserGrowthChart";
 
 import SubjectChart from "./subjects/components/SubjectPerformanceChart";
 
-export default function AnalyticsOverviewPage() {
+export default function page() {
   const [loading, setLoading] = useState(true);
 
   const [usageData, setUsageData] = useState([]);
