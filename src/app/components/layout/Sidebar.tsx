@@ -13,7 +13,8 @@ import {
   ClipboardList,
   Bell,
   BarChart3,
-  X
+  X,
+  FileText,
 } from "lucide-react";
 
 type Props = {
@@ -104,6 +105,11 @@ export default function Sidebar({
           path: "/analytics/streak-leaderboard",
         },
       ],
+    },
+     {
+      name: "Resources",
+      path: "/resources",
+      icon: <FileText size={20} />,
     },
   ];
 
